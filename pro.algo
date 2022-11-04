@@ -1,0 +1,39 @@
+PROCEDURE procedure_sum(var sum :typeof INTEGER)
+VAR
+   x1:INTEGER:
+    y1:INTEGER;
+    x1:INTEGER;
+    y2:INTEGER;
+BEGIN
+  
+  (x1*x2)+(y1*y2)=sum
+  END
+ALGORITHM procedure_sum
+VAR
+    sum:INTEGER=0;
+    BEGIN
+ write("donner x1,y2,x2,y2")
+IF (sum=0) THEN
+    write("deux vecteurs sont orthogonaux")
+    ELSE
+    write("deux vecteurs sont non orthogonaux")
+  END_IF
+  END
+
+
+FUNCTION function_sum(,x1,y2,x2,y2) : return_intger
+VAR x1,y1,x1,y2:INTEGER;
+BEGIN
+ write("donner x1,y2,x2,y2")
+ (x1*x2)+(y1*y2)=sum
+  RETURN  sum;
+ALGORITHM function_sum
+VAR
+    sum:INTEGER=0;
+    BEGIN
+IF (sum=0) THEN
+  write("deux vecteurs sont orthogonaux")
+  ELSE
+  write("deux vecteurs sont  non orthogonaux")
+END_IF
+END
